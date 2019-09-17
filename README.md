@@ -1,0 +1,33 @@
+# Commands-of-git
+Linux commands:
+==============
+
+1. Present working directory: 	pwd
+2. List of Files and Folders: 	ls
+3. Clears the screen: 	clear
+4. Change the directory: 	cd
+5. Create a folder or directory: 	mkdir
+6. Create the files under folder:	
+	a. touch- create a file for specific directory
+	b. nano- write anything on file then press ctrl+x then press y then ENter
+	c. gedit-
+	d. cat- Used to read file data
+	e. echo- used to write the data to file(>(used for overwirting)>>(used for append))
+
+Git Commands:
+============
+
+1. git version: Current version of git in local computer
+ 	github- central place of all the repositary
+	push/pull
+2. git init : used for new project creation
+3. ls -a : show hidden files and folders
+4. Configure the git:
+	a. git config user.name 'Yourname'
+	b. git config user.email 'Email'
+ To test the config:
+	a. git config user.name
+	b. git config user.email
+5. git status: to get the status of file whether it is in tracked or untacked mode
+6. git add FILENAME: to change file
+7. git commit -m 'Message': chanfe file insertion and commit
